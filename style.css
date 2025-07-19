@@ -15,6 +15,11 @@ body{
     box-shadow: 3px 3px 10px 0 rgba(102, 102, 102, 0.1)
     ,-3px -3px 10px 0 rgba(82, 81, 81, 0.1);
 }
+.container:hover{
+    box-shadow: 10px 10px 10px  #0000001a
+    ,-10px -10px 10px  #5251511a;
+    transition: box-shadow 0.5s;
+}
 img{
     border-radius: 10px;
     width: 100%;
@@ -43,4 +48,3 @@ img{
 .button:hover{
     background-color: gray;
 }
-
